@@ -19,6 +19,11 @@ public class Calculadora {
 	System.out.println("La suma es: " +Calculadora.suma(num1, num2));
 	
 	System.out.println("La resta es: " +Calculadora.resta(num1, num2));
+	
+	System.out.println("La multiplicación es: " +Calculadora.multiplicacion(num1, num2));
+	
+	System.out.println("La división es: " +Calculadora.division(num1, num2));
+	
 	}
 
 	public static int suma (int num1, int num2) {
@@ -27,5 +32,13 @@ public class Calculadora {
 	
 	public static int resta (int num1, int num2) {
 		return (num1-num2);
+	}
+	
+	public static int multiplicacion (int num1, int num2) {
+		return (num1*num2);
+	}
+	
+	public static int division (int num1, int num2) {
+		return (num1/num2);
 	}
 }
